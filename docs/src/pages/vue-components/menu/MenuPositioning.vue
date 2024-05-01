@@ -3,25 +3,23 @@
     <div class="q-pa-md text-center">
       <q-btn class="call-to-action-btn" label="Test me" style="width: 200px">
         <q-menu :fit="fit" :cover="cover" :anchor="anchor" :self="self" auto-close>
-          <q-list style="min-width: 100px">
-            <q-item clickable>
-              <q-item-section>New tab</q-item-section>
-            </q-item>
+          <q-item clickable role="menuitem">
+            <q-item-section>New tab</q-item-section>
+          </q-item>
 
-            <q-item clickable>
-              <q-item-section>New incognito tab</q-item-section>
-            </q-item>
+          <q-item clickable role="menuitem">
+            <q-item-section>New incognito tab</q-item-section>
+          </q-item>
 
-            <q-separator />
+          <q-separator />
 
-            <q-item clickable>
-              <q-item-section>Recent tabs</q-item-section>
-            </q-item>
+          <q-item clickable role="menuitem">
+            <q-item-section>Recent tabs</q-item-section>
+          </q-item>
 
-            <q-item clickable>
-              <q-item-section>History</q-item-section>
-            </q-item>
-          </q-list>
+          <q-item clickable role="menuitem">
+            <q-item-section>History</q-item-section>
+          </q-item>
         </q-menu>
       </q-btn>
     </div>
